@@ -74,3 +74,30 @@ foreach ($carrinho as $produto => $preco) {
 echo "Total: R$ $total";
 
 echo "\n\n";
+
+// Crie um array de produtos com nome e preço
+$produtos = [
+    ["nome" => "Notebook", "preco" => 2500],
+    ["nome" => "Mouse", "preco" => 50],
+    ["nome" => "Teclado", "preco" => 120]
+];
+
+// Calcule o total e mostre cada produto
+$total = 0;
+foreach ($produtos as $produto) {
+    echo "{$produto['nome']}: R$ {$produto['preco']}\n";
+    $total += $produto['preco'];
+}
+echo "Valor total: R$ $total\n";
+
+echo "\n\n";
+
+
+
+
+
+//foreach: Para percorrer arrays e objetos.
+
+//for: Quando você sabe o número exato de iterações.
+
+//while: Quando a condição de parada é complexa.
