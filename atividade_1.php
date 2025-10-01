@@ -1,5 +1,7 @@
 <?php
 
+//Atividade 1
+
 echo "Meu nome é Henrique";
 echo "\n";
 
@@ -44,6 +46,6 @@ echo "{$temperaturaCelsius}°C é igual a {$temperaturaFahrenheit}°F";
 
 echo "\n";
 
-echo "Fim da atividade."
+echo "Fim da atividade 1.\n"
 
 ?>

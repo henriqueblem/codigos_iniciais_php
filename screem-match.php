@@ -5,6 +5,7 @@ echo "\n";
 
 $nomeFilme = "Interestelar";
 $anoDeLancamento = 2014;
+$genero = "Ficção Científica";
 
 $quantidadeDeNotas = $argc - 1; // Subtraindo 1 para não contar o nome do script(na posição 0)
 $somadeNotas = 0;
@@ -22,6 +23,7 @@ $inclusoNoPlano = $planoPrime || $anoDeLancamento < 2020;
 echo "Filme: " . $nomeFilme . "\n"; //concatenação
 echo "Ano de Lançamento: $anoDeLancamento\n"; //interpolação
 echo "Nota do Usuário: $notaDoFilme\n";
+echo "Gênero: $genero\n";
 
 if ($anoDeLancamento >= 2024) {
     echo "O filme ainda é novo.\n";
@@ -59,5 +61,6 @@ switch ($notaDoFilme) {
 // $resultado = $expressao1 ? expressao2 : expressao3;
 //Exemplo:
 # $avaliacao = ($mediaNotas >= 9) ? "Excelente" : (($mediaNotas >= 7) ? "Bom" : "Regular");
+
 
 
